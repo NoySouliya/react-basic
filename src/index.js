@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import HelloComponent from './components/HelloComponent';
+// import HelloComponent from './components/HelloComponent';
 import reportWebVitals from './reportWebVitals';
 
 // karn sarng function Component

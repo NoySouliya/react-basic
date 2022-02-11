@@ -1,3 +1,4 @@
+import React from 'react';
 function HelloComponent(){
     return <h1>Hello External Component</h1>
 }

@@ -1,7 +1,15 @@
-const Item = ()=>{
+import PropTypes from 'prop-types';
+import React from 'react';
+const Item = (props)=>{
+    const{title,amount}=props
     return(
-      <li>ຄ່າທີພັກ <span>-200,000</span></li>
+        <li>{title}<span>{amount}</span></li>
     );
+}
+
+Item.propTypes={
+    title:PropTypes.string.isRequired,
+    amount:PropTypes.number.isRequired
 }
 
 export default Item;
